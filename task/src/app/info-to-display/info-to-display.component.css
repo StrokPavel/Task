@@ -57,3 +57,28 @@
 .body-block > p {
     margin: 4px 5;
 }
+
+.body > button {
+  margin: 30px auto 0;
+  width: 80px;
+  height: 40px;
+  background: #ac9999;
+  border: solid 1px #c1b9b9;
+  color: #000000;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.body > button:hover {
+  background: #c4b7b7;
+  border: solid 1px #d5acac;
+  color: #585353;
+}
+
+.body > button:active {
+  background: #e1e1e1;
+  border: solid 1px #dddddd;
+  color: #686868;
+}

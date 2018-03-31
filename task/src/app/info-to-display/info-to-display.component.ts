@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
 import { User } from '../user_data';
 import { Service } from '../service';
@@ -41,6 +40,10 @@ export class InfoToDisplayComponent implements OnInit {
       )
     })
   }
+
+  // closeWindow(): void {
+  //   this.route.url="";
+  // }
 
   ngOnInit() {
   }

@@ -1,0 +1,15 @@
+p {
+    display: flex;
+    justify-content: center;
+    color: #0c5060;
+    font-size: 40px;
+}
+
+.user-list {
+    width: 101%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}

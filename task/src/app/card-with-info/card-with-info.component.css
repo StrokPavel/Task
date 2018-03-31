@@ -1,0 +1,48 @@
+.card {
+  border: solid 2px #4b4444;
+  box-shadow: 3px 3px 10px #716c6c;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  background-color: rgba(89, 97, 200, 0.55)
+}
+
+.head {
+  margin: 15px;
+  font-size: 25px;
+  color: #305990;
+}
+
+.body > p {
+  margin: 0.5vh 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.body > button {
+  margin: 30px auto 0;
+  width: 80px;
+  height: 40px;
+  background: #ac9999;
+  border: solid 1px #c1b9b9;
+  color: #000000;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.body > button:hover {
+  background: #c4b7b7;
+  border: solid 1px #d5acac;
+  color: #585353;
+}
+
+.body > button:active {
+  background: #e1e1e1;
+  border: solid 1px #dddddd;
+  color: #686868;
+}

@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="head">
+    <h4> {{user.name}}</h4>
+  </div>
+  <ul>
+    <li>
+      <div class="body">
+        <li>
+          <p> Username: {{user.username}}</p>
+        </li>
+        <li>
+          <p> E-mail : {{user.email}}</p>
+        </li>
+        <li>
+          <p> Phone : {{user.phone}}</p>
+        </li>
+        <button (click)="showInfo()">
+          Show details
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,59 @@
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 22, 22, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #8aa1d0;
+    width: 20%;
+    margin: auto;
+    border: solid 2px #040101;
+    min-height: 45vh;
+    box-shadow: 24px 8px 12px rgba(1, 5, 9, 0.59);
+    padding: 2vh 2vw;
+}
+
+.name {
+    margin: 1vh auto;
+    font-size: 25px;
+    color: #20418b;
+}
+
+.body {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.body-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1vh 3 2vh;
+    border-bottom: solid 1px #0a0404;
+    width: 100%;
+}
+
+.body-block:last-child() {
+    border-bottom: none;
+}
+
+.body-block > h5 {
+    align-self: center;
+    font-size: 15px;
+    color: #1d0060;
+}
+
+.body-block > p {
+    margin: 4px 5;
+}

@@ -17,6 +17,8 @@ export class CardWithInfoComponent implements OnInit {
 
   constructor(private route: Router) { }
 
+//Метод который получает информацию по ID пользователя
+//из маршрута info(если так можно выразиться) и выводит на модальное окно.
   showInfo() {
     this.route.navigate(['info'], {
       queryParams: {
@@ -24,8 +26,6 @@ export class CardWithInfoComponent implements OnInit {
       }
     })
   }
-
-
 
   ngOnInit() {
 

@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.getUsers();
   }
-
+//Получает информацию о пользователе.
   getUsers(): void {
     this.Service.getUsers()
     .subscribe(users => this.users = users);

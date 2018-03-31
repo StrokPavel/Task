@@ -27,6 +27,9 @@ export class InfoToDisplayComponent implements OnInit {
     this.getUser();
   }
 
+//Получение массива с информацией о пользователях  и перебор этого массива.
+//Почему перебор именно такой незнаю, но он работает.
+
   getUser(): void {
     this.Service.getUsers()
     .subscribe(users_list => {

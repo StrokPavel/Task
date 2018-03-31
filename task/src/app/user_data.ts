@@ -1,3 +1,4 @@
+//Структура данных приходящих по запросу
 export class User{
     id: number;
     name: string;

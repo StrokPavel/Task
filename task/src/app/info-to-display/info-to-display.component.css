@@ -55,12 +55,11 @@
 }
 
 .body-block > p {
-    margin: 4px 5;
+    margin: 4px 10;
 }
 
 .body > button {
-  margin: 30px auto 0;
-  width: 80px;
+  margin: 10px auto 0;
   height: 40px;
   background: #ac9999;
   border: solid 1px #c1b9b9;

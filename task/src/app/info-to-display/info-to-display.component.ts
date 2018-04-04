@@ -41,9 +41,6 @@ export class InfoToDisplayComponent implements OnInit {
     })
   }
 
-  // closeWindow(): void {
-  //   this.route.url="";
-  // }
 
   ngOnInit() {
   }

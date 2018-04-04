@@ -14,10 +14,6 @@ export class DashboardComponent implements OnInit {
   constructor(private Service: Service) { }
 
   ngOnInit() {
-    this.getUsers();
-  }
-//Получает информацию о пользователе.
-  getUsers(): void {
     this.Service.getUsers()
     .subscribe(users => this.users = users);
   }

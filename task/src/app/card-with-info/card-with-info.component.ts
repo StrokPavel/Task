@@ -14,7 +14,6 @@ export class CardWithInfoComponent implements OnInit {
 
   @Input() user: User;
 
-
   constructor(private route: Router) { }
 
 //Метод который получает информацию по ID пользователя

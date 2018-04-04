@@ -41,7 +41,6 @@ export class InfoToDisplayComponent implements OnInit {
     })
   }
 
-
   ngOnInit() {
   }
 }
